@@ -18,11 +18,11 @@
     <div class="logo">CARTOLERIA* </div>
     <div class="container">
         <h1>Order Confirmed!</h1>
-        <p>Collect your copies after <span id="time"></span>.</p>
+        <p>Collect your copies after <span id="time"></span></p>
     </div>
 
     <script>
-        // Display real-time pickup time (1 hour from now)
+        
         const currentTime = new Date();
         currentTime.setHours(currentTime.getHours() + 1);
         document.getElementById('time').innerText = currentTime.toLocaleTimeString();
