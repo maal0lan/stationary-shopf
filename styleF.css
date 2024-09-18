@@ -1,0 +1,81 @@
+body
+{
+    background-image: url("https://images.alphacoders.com/113/1138740.png");
+    /* background-image: url("https://i.imgur.com/C3ypF4O.gif"); */
+    font-family: "Tiny5", sans-serif;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    cursor: cell;
+}
+.misc_image
+{
+  position:absolute;
+  
+}
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  
+  padding: 10px;
+  background-color:#27024b81;
+  color: rgb(255, 221, 1);
+  
+  font-size: 20px;
+  cursor: crosshair;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row; /* Change direction to column for vertical layout */
+  align-items: flex-start; /* Align the items to the left (or use center if needed) */
+  cursor: cell;
+}
+
+nav li {
+  margin: 19px 220px; /* Vertical space between items */
+  cursor: crosshair;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(255, 221, 1);
+  cursor: crosshair;
+}
+
+
+.header
+{
+    font-size:55px ;
+    color: rgba(255, 221, 1, 0.744);
+    font-weight: bolder;
+    top: 200px;
+    margin-left: 485px;
+    background-size: 100%;
+    position: relative;
+}
+
+
+button {
+    background-color: #1b046699; 
+    border: none;
+    width: 120px;
+    font-family: "Tiny5", sans-serif;
+    border-radius: 20%;
+    margin-top: 360px;
+    margin-left: 410px;
+    color: rgb(255, 221, 1);
+    padding: 15px 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: crosshair;
+  transition: all 0.3s ease-in-out; 
+  }
+  button:active {
+    box-shadow: 0px 5px 0px -1px #01075699;
+    transform: scale(0.75);
+  }

@@ -1,0 +1,51 @@
+.logo {
+    position: fixed;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 1200px;
+  }
+.fixed-header {
+    position: fixed;
+    border-radius: 5%;
+    top: 0;
+    left: 0;
+    height: 30px;
+    background-color: rgba(12, 33, 2, 0);
+    color: rgb(255, 221, 1);
+    padding: 5px;
+    font-size: 15px;
+    cursor: crosshair;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 10px;
+    padding: 0;
+    display: flex;
+    cursor: crosshair;
+  }
+  .yapp
+  {
+    margin-left: 400px;
+
+  }
+  
+  nav li {
+    margin: 0 50px;
+    cursor: crosshair;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: rgb(255, 221, 1);
+  }
+  
+body {
+    font-family: 'Tiny5', sans-serif;
+    background-image: url('images/contact\ us.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(255, 221, 1);
+    max-width: 100vw; /* Prevent the body from being wider than the viewport */
+    overflow-x: hidden; /* Hide horizontal scroll */
+  }
