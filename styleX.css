@@ -55,6 +55,8 @@ button {
     cursor: crosshair;
 }
 button:hover {
-    background-color: #000000;
+    background-color: #6ae641b4;
+    filter: blur(1.2px);
+    transform: scale(10px);
     cursor: crosshair;
 }
