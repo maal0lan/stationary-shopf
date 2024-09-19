@@ -10,11 +10,7 @@ body
     background-repeat: no-repeat;
     cursor: cell;
 }
-.misc_image
-{
-  position:absolute;
-  
-}
+
 .fixed-header {
   position: fixed;
   top: 0;
