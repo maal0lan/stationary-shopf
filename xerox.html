@@ -8,18 +8,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tiny5&display=swap" rel="stylesheet">
-    
+    <div class="logo" >&nbsp;CARTOLERIA*&nbsp;</div>
 </head>
 <body>
+    
     <div class="form-container">
         
         <h1>CARTOLERIA &emsp; PRINT-PRO</h1>
         <form action="confirmation.html" method="POST">
             <label for="customerName">Customer Name</label>
-            <input type="text" id="customerName" name="customerName" placeholder="Enter your name" >
+            <input type="text" id="customerName" name="customerName" placeholder="Enter your name" required >
 
             <label for="fileUpload">Upload PDF</label>
-            <input type="file" id="fileUpload" name="fileUpload" accept=".pdf">
+            <input type="file" id="fileUpload" name="fileUpload" accept=".pdf" required>
 
             <label for="pageSize">Select Page Size</label>
             <select id="pageSize" name="pageSize" >
@@ -42,9 +43,9 @@
             <label for="phone number">Phone Number</label>
             <input type="number" placeholder="(+91)number">
             <label for="copies">Number Of Copies</label>
-            <input type="number" placeholder="enter no of copies do you want">
+            <input type="number" placeholder="enter no of copies do you want" required>
             <label for="address">Address</label>
-            <input type="text" placeholder="enter your address">
+            <input type="text" placeholder="enter your address" required>
             <button type="submit">Submit</button>
         </form>
     </div>

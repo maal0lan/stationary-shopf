@@ -1,19 +1,29 @@
+.logo
+{
+    position: absolute;
+    font-size: 30px;
+    color: rgb(255, 221, 1);
+    background-color: rgba(82, 80, 66, 0.334);
+    left: 1200px;
+    bottom: 800px;
+}
 body {
     font-family: 'Tiny5', sans-serif;
-    margin: 0;
-    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100%;
     background-image: url(images/printpro.gif);
+    cursor: crosshair;
 }
+
 .form-container {
     background: rgba(255, 255, 255, 0.186);
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(1.5px);
     padding: 30px;
     border-radius: 12px;
-    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.363);
+    box-shadow: 0 1px 12px rgba(102, 140, 50, 0.756);
+    cursor: crosshair;
 }
 h1 {
     color: rgb(255, 221, 1);
@@ -24,6 +34,7 @@ label {
     display: block;
     margin: 15px 0 5px;
     color: rgba(0, 0, 0, 0.996);
+    cursor: crosshair;
 }
 input, select {
     width: 100%;
@@ -31,6 +42,7 @@ input, select {
     margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    cursor: crosshair;
 }
 button {
     width: 100%;
@@ -43,5 +55,6 @@ button {
     cursor: crosshair;
 }
 button:hover {
-    background-color: #e5c800;
+    background-color: #000000;
+    cursor: crosshair;
 }

@@ -1,9 +1,16 @@
-.logo {
-    position: fixed;
-    font-size: 40px;
-    margin-top: 20px;
-    margin-left: 1200px;
-  }
+body{    
+    font-family:'Tiny5', sans-serif ;
+    background-image: url("https://i.pinimg.com/originals/7d/b2/4b/7db24b01a8ba90ab48a448d01f32aa60.gif");
+    background-size: cover;
+}
+.logo
+{
+    font-size: 30px;
+    position: absolute;
+    left: 1300px;
+    color: rgb(255, 221, 2);
+    
+}
 .fixed-header {
     position: fixed;
     border-radius: 5%;
@@ -24,16 +31,6 @@
     display: flex;
     cursor: crosshair;
   }
-  .yapp
-  {
-    position: absolute;
-    font-size: 20px;
-    left: 300px;
-    top: 150px;
-
-
-  }
-  
   nav li {
     margin: 0 50px;
     cursor: crosshair;
@@ -43,25 +40,24 @@
     text-decoration: none;
     color: rgb(255, 221, 1);
   }
-  .queries
-  {
+  
+
+
+h1{
+    font-size: 70px;
+}
+.container
+{
     font-size: 20px;
     position: absolute;
-    left: 300px;
-    top: 300px; 
-  }
-  input
-  {
+    left: 450px;
+    top: 210px;
+    color: rgb(255, 221, 2);
+   
+}
+input
+{
     position: absolute;
-  }
- 
-      
-
-body {
-    font-family: 'Tiny5', sans-serif;
-    background-image: url('images/contact\ us.gif');
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: rgb(255, 221, 1);
-     
-      }
+    left: 300px;
+    top: 400px;
+}

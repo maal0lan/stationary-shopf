@@ -1,8 +1,8 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} */
 
 body {
   font-family: 'Tiny5', sans-serif;
@@ -42,6 +42,7 @@ nav ul {
   padding: 0;
   display: flex;
   cursor: crosshair;
+  z-index: 2000px;
 }
 
 nav li {
@@ -73,15 +74,16 @@ nav a {
 .item1_welp {
   font-size: 20px;
   margin-left: 300px;
-  margin-top: 10px;
+
 }
 
 .products-section {
 
-  margin-top: 500px; /* Reduce margin so it's not too far down */
+  margin-top: 500px; 
   padding: 50px 20px;
   color: black;
   text-align: center;
+  
 }
 
 .products-section h2 {
@@ -92,15 +94,18 @@ nav a {
 
 .products-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* Adjust based on your preference */
+  grid-template-columns: repeat(4, 1fr); 
   gap: 20px;
   margin: 0 auto;
   padding: 20px;
   max-width: 1200px;
+ 
 }
 
 .product {
  position: relative;
+ overflow: hidden ;
+
   
 }
 
